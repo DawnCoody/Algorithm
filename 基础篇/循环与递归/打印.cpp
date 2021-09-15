@@ -13,21 +13,6 @@
 
 using namespace std;
 
-/**
- * 编写一个算法，其功能是给给一维数组 a 输入任意 6 个整数，假设为 5,7,4,8,9,1 然后建立一个具有如下图的方阵，并打印出来
- * 
- *  5   7   4   8   9   1
- *  1   5   7   4   8   9
- *  9   1   5   7   4   8 
- *  8   9   1   5   7   4
- *  4   8   9   1   5   7
- *  7   4   8   9   1   5
- */
-
-#include <iostream>
-
-using namespace std;
-
 // 非递归算法
 void plain_print(int a[])
 {
