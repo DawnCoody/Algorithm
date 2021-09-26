@@ -15,7 +15,7 @@ int main() {
         for (int b = 1; b <= 4; b++)
             if (a != b) 
                 for (int c = 1; c <= 4; c++)
-                    if (a != b && b != c) {
+                    if (a != c && b != c) {
                         // 因为 1 + 2 + 3 + 4 = 10，总名次之和为 10
                         int d = 10 - a - b - c;
                         // 这里代表老师说说的话
