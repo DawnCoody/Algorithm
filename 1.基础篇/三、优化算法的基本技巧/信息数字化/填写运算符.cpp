@@ -21,14 +21,11 @@ int main() {
     // symbol_mapping 遍历所有符号，5个数之间有4个运算符因此有 4 层循环，而共有 4 个符号(+,-,*,/) 所以每层循环循环 4 次
     for (symbol_mapping[1] = 1; symbol_mapping[1] <= 4; symbol_mapping[1]++)
         if (symbol_mapping[1] < 4 || number[2] != 0)    // 这里 if 是为了防止除号右边出现 0 
-            for (symbol_mapping[2] = 1; symbol_mapping[2] <= 4;
-                 symbol_mapping[2]++)
+            for (symbol_mapping[2] = 1; symbol_mapping[2] <= 4; symbol_mapping[2]++)
                 if (symbol_mapping[2] < 4 || number[3] != 0)
-                    for (symbol_mapping[3] = 1; symbol_mapping[3] <= 4;
-                         symbol_mapping[3]++)
+                    for (symbol_mapping[3] = 1; symbol_mapping[3] <= 4; symbol_mapping[3]++)
                         if (symbol_mapping[3] < 4 || number[4] != 0)
-                            for (symbol_mapping[4] = 1; symbol_mapping[4] <= 4;
-                                 symbol_mapping[4]++)
+                            for (symbol_mapping[4] = 1; symbol_mapping[4] <= 4; symbol_mapping[4]++)
                                 if (symbol_mapping[4] < 4 || number[5] != 0) {
                                     result = 0;
                                     temp = number[1];
