@@ -7,6 +7,7 @@
 using namespace std;
 
 int main() {
+    // array[x1]与array[y1]的乘积为最大值，array[x2]与array[y2]的乘积为最小值
     int array[100], max = 1, min = 32767, n, x1, y1, x2, y2;
     cout << "请输入有几个数围成一个圈：";
     cin >> n;
